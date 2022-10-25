@@ -1,8 +1,12 @@
 const profile =
 {
-    name: "jangseoyoung",
+    name: "장서영(Jang seoyoung)",
     email: "tkrhk9511@gmail.com",
-    tel: "010.2981.3734"
+    tel: "010.2981.3734",
+    university: "동서대학교 전자공학과 졸업 (2014.03 - 2019.02)",
+    academy: "부산 그린컴퓨터아카데미 리액트 활용 프론트엔드 개발자 양성과정 수료 (2022.05 - 2022.11)",
+    skill: ["HTML5", "CSS", "JQUERY", "JAVASCRIPT", "REACT"]
+
 }
 
 const portfolio = [

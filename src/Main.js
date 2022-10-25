@@ -4,7 +4,7 @@ import Cover from './Cover';
 import { profile, portfolio } from './Data';
 import './Main.scss';
 
-//portfolio배열에서 title을 빼서 배열을 만들어 쓰겠다.
+//portfolio배열에서 title을 빼서 배열을 만들어 씀.
 const AC = portfolio.map(it => it = it.title);
 
 const Main = () => {
@@ -135,18 +135,48 @@ const Main = () => {
                         </div>
                       </div>
                     </div>
-
                   )
                 })
               }
               <div className="section about">
-                <div>ABOUT</div>
+                <div className="container">
+                  <h2>ABOUT ME</h2>
+                  <div className="box">
+                    <div className="photo">
+                      <img src={process.env.PUBLIC_URL + "/img/profile.jpg"} alt="" />
+                    </div>
+                    <div className="profile">
+                      <dl>
+                        <dt>Name</dt>
+                        <dd>{profile.name}</dd>
+
+                        <dt>E-mail</dt>
+                        <dd>{profile.email}</dd>
+
+                        <dt>University</dt>
+                        <dd>{profile.university}</dd>
+
+                        <dt>Academy</dt>
+                        <dd>{profile.academy}</dd>
+
+                        <dt>Skill</dt>
+                        {
+                          profile.skill?.map((skill, idx) => {
+                            return (
+                              <dd>{skill}</dd>
+                            )
+                          })
+                        }
+                      </dl>
+                    </div>
+                  </div>
+                </div>
               </div>
             </ReactFullpage.Wrapper >
           );
         }}
       />
-    </div >
+    </div>
   )
 }
 
