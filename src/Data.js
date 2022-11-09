@@ -12,11 +12,11 @@ const profile =
 const portfolio = [
     {
         id: 1, title: "PROJECT01", span: "OCI", brand: "오씨아이", type: "React Web (Main/Subpage)", font: ["Pretendard-Regular"]
-        , color: ["#e41d30", "#394d60", "#ffffff"], skill: "React, Sass", src: process.env.PUBLIC_URL + "/img/screenshot_01.png", link: "https://seo0033.github.io/react_oci/"
+        , color: ["#e41d30", "#394d60", "#ffffff"], skill: "React, Scss", src: process.env.PUBLIC_URL + "/img/screenshot_01.png", link: "https://seo0033.github.io/react_oci/"
     },
     {
         id: 2, title: "PROJECT02", span: "DOOSI", brand: "두시", type: "React Web(Main/Subpage)", font: ["'Hahmlet',serif"]
-        , color: ["#f9f5ea", "#7d9d91", "#004433", "#00140f"], skill: "React, Sass", src: process.env.PUBLIC_URL + "/img/screenshot_02.png", link: "https://seo0033.github.io/react_doosi/"
+        , color: ["#f9f5ea", "#7d9d91", "#004433", "#00140f"], skill: "React, Scss", src: process.env.PUBLIC_URL + "/img/screenshot_02.png", link: "https://seo0033.github.io/react_doosi/"
     },
     {
         id: 3, title: "PROJECT03", span: "ASEOP", brand: "이솝", type: "Responsive Web", font: ["'Hahmlet', serif"]
@@ -31,7 +31,7 @@ const portfolio = [
         , color: ["#00696d", "#f29819", "#333333", "#f9f9f9"], skill: "HTML, CSS, jQuery", src: process.env.PUBLIC_URL + "/img/screenshot_05.png", link: "https://seo0033.github.io/03_AMC/"
     },
     {
-        id: 6, title: "PROJECT01", span: "COOKIT", brand: "쿡킷", type: "Responsive Web", font: ["Noto Sans KR"]
+        id: 6, title: "PROJECT06", span: "COOKIT", brand: "쿡킷", type: "Responsive Web", font: ["Noto Sans KR"]
         , color: ["#ffffff", "#dddddd", "#ff8601", "#532900"], skill: "HTML, CSS, JavaScript", src: process.env.PUBLIC_URL + "/img/screenshot_06.png", link: "https://seo0033.github.io/04_cookit/"
     },
 
