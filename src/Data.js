@@ -31,7 +31,7 @@ const portfolio = [
         , color: ["#00696d", "#f29819", "#333333", "#f9f9f9"], skill: "HTML, CSS, jQuery", src: process.env.PUBLIC_URL + "/img/screenshot_05.png", link: "https://seo0033.github.io/03_AMC/"
     },
     {
-        id: 1, title: "PROJECT01", span: "COOKIT", brand: "쿡킷", type: "Responsive Web", font: ["Noto Sans KR"]
+        id: 6, title: "PROJECT01", span: "COOKIT", brand: "쿡킷", type: "Responsive Web", font: ["Noto Sans KR"]
         , color: ["#ffffff", "#dddddd", "#ff8601", "#532900"], skill: "HTML, CSS, JavaScript", src: process.env.PUBLIC_URL + "/img/screenshot_06.png", link: "https://seo0033.github.io/04_cookit/"
     },
 
